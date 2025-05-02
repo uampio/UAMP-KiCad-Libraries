@@ -14,7 +14,7 @@
   (pad 3 thru_hole circle (at -14.5 -10.5) (size 1.524 1.524) (drill 0.8) (layers *.Cu *.Mask))
   (pad 4 thru_hole circle (at -7 -10.5) (size 1.524 1.524) (drill 0.8) (layers *.Cu *.Mask))
   (pad 5 thru_hole circle (at 14.5 -10.5) (size 1.524 1.524) (drill 0.8) (layers *.Cu *.Mask))
-  (model ${UAMP_LIBRARIES}/Footprints/3D-Models/Traco_Power.3dshapes/tmpw10.stp
+  (model "${KICAD9_3RD_PARTY}/3dmodels/com_github_uamp_kicad-libraries/Traco_Power.3dshapes/tmpw10.stp"
     (offset (xyz 0.9 4.8 35.1))
     (scale (xyz 1 1 1))
     (rotate (xyz 180 0 180))

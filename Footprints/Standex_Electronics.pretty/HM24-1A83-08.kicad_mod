@@ -16,7 +16,7 @@
   (pad 2 thru_hole circle (at 30.48 0) (size 2 2) (drill 1.05) (layers *.Cu *.Mask))
   (pad 3 thru_hole circle (at -12.7 5.08) (size 2 2) (drill 1.05) (layers *.Cu *.Mask))
   (pad 4 thru_hole circle (at 12.7 5.08) (size 2 2) (drill 1.05) (layers *.Cu *.Mask))
-  (model ${UAMP_LIBRARIES}/Footprints/3D-Models/Standex_Electronics.3dshapes/HM24-1A83-08_1.stp
+  (model "${KICAD9_3RD_PARTY}/3dmodels/com_github_uamp_kicad-libraries/Standex_Electronics.3dshapes/HM24-1A83-08_1.stp"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

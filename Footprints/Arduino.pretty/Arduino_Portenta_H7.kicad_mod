@@ -196,7 +196,7 @@
   (pad 158 smd trapezoid (at 7.4 17.415) (size 0.2 1.14) (layers F.Cu F.Paste F.Mask))
   (pad 159 smd trapezoid (at 7.8 14.335) (size 0.2 1.14) (layers F.Cu F.Paste F.Mask))
   (pad 160 smd trapezoid (at 7.8 17.415) (size 0.2 1.14) (layers F.Cu F.Paste F.Mask))
-  (model ${UAMP_LIBRARIES}/Footprints/3D-Models/Arduino.3dshapes/PortentaH7_V3.1.step
+  (model "${KICAD9_3RD_PARTY}/3dmodels/com_github_uamp_kicad-libraries/Arduino.3dshapes/PortentaH7_V3.1.step"
     (offset (xyz 13 -33 3))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -90))

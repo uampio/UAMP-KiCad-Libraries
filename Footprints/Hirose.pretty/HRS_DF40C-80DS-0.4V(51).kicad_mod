@@ -94,7 +94,7 @@
   (pad 78 smd rect (at 7.4 -1.32) (size 0.2 1.14) (layers F.Cu F.Paste F.Mask))
   (pad 79 smd rect (at 7.8 1.32) (size 0.2 1.14) (layers F.Cu F.Paste F.Mask))
   (pad 80 smd rect (at 7.8 -1.32) (size 0.2 1.14) (layers F.Cu F.Paste F.Mask))
-  (model ${UAMP_LIBRARIES}/Footprints/3D-Models/Hirose.3dshapes/DF40C-80DS.stp
+  (model "${KICAD9_3RD_PARTY}/3dmodels/com_github_uamp_kicad-libraries/Hirose.3dshapes/DF40C-80DS.stp"
     (offset (xyz -4.12 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))

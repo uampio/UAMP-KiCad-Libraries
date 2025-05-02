@@ -1,6 +1,8 @@
 # UAMP-KiCad-Libraries
 UAMP KiCad Libraries
 
-Add in configure paths enviroment variable UAMP_LIBRARIES pointing to the llibrary folder.
+Warranty
 
-![Configure Paths](Assets/configure_paths.png)
+The libraries are provided in the hope that they will be useful, but are provided without warranty of any kind, express or implied.
+
+CI Inspired in [Espressif KiCad libraries](https://github.com/espressif/kicad-libraries)

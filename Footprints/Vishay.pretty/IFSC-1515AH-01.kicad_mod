@@ -11,7 +11,7 @@
   (fp_line (start 2.159 -2.0955) (end 2.159 2.0955) (layer F.SilkS) (width 0.12))
   (pad 1 smd rect (at -1.475 0) (size 1.15 3.6) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 1.475 0) (size 1.15 3.6) (layers F.Cu F.Paste F.Mask))
-  (model ${UAMP_LIBRARIES}/Footprints/3D-Models/Vishay.3dshapes/IFSC-1515AH-01.STEP
+  (model "${KICAD9_3RD_PARTY}/3dmodels/com_github_uamp_kicad-libraries/Vishay.3dshapes/IFSC-1515AH-01.STEP"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

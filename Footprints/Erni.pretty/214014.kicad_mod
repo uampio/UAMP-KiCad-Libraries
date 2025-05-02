@@ -24,7 +24,7 @@
   (pad "" smd rect (at 6.955 -0.5) (size 1.2 2.4) (layers F.Cu F.Paste F.Mask))
   (pad "" smd rect (at -6.955 -5.5) (size 1.2 2.4) (layers F.Cu F.Paste F.Mask))
   (pad "" smd rect (at 6.955 -5.5) (size 1.2 2.4) (layers F.Cu F.Paste F.Mask))
-  (model ${UAMP_LIBRARIES}/Footprints/3D-Models/Erni.3dshapes/214014.STEP
+  (model "${KICAD9_3RD_PARTY}/3dmodels/com_github_uamp_kicad-libraries/Erni.3dshapes/214014.STEP"
     (offset (xyz 0 0.05 1.5))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))

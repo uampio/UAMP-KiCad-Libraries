@@ -7,7 +7,7 @@
   )
   (fp_circle (center 0 0) (end 0.254 -5.08) (layer F.SilkS) (width 0.12))
   (pad 1 thru_hole circle (at 0 0) (size 9.4 9.4) (drill 5.4) (layers *.Cu *.Mask))
-  (model ${UAMP_LIBRARIES}/Footprints/3D-Models/Wurth_Elektronik.3dshapes/9774100982 (rev1).stp
+  (model "${KICAD9_3RD_PARTY}/3dmodels/com_github_uamp_kicad-libraries/Wurth_Elektronik.3dshapes/9774100982 (rev1).stp"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -69,7 +69,7 @@
   (pad 3 thru_hole circle (at -12.25 -2.5) (size 1.9 1.9) (drill 1.1) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at -15.75 -2.5) (size 1.9 1.9) (drill 1.1) (layers *.Cu *.Mask))
   (pad 1 thru_hole circle (at -19.25 -2.5) (size 1.9 1.9) (drill 1.1) (layers *.Cu *.Mask))
-  (model ${UAMP_LIBRARIES}/Footprints/3D-Models/Phoenix_Contact.3dshapes/1071020_00_SPTAF-1-12-3-5-IL-EX.stp
+  (model "${KICAD9_3RD_PARTY}/3dmodels/com_github_uamp_kicad-libraries/Phoenix_Contact.3dshapes/1071020_00_SPTAF-1-12-3-5-IL-EX.stp"
     (offset (xyz -21.75 -5.5 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
