@@ -1,0 +1,35 @@
+{
+    "$schema": "https://go.kicad.org/pcm/schemas/v1",
+    "name": "UAMP Library",
+    "description": "This addon contains the Symbols, Footprint, and 3D Models.",
+    "description_full": "This addon contains the Symbols, Footprint, and 3D Models.",
+    "identifier": "com.github.uamp.kicad-libraries",
+    "type": "library",
+    "author": {
+        "name": "Marco Rodriguez Bosco",
+        "contact": {
+            "web": "https://github.com/uampio/UAMP-KiCad-Libraries"
+        }
+    },
+    "maintainer": {
+        "name": "Marco Rodriguez Bosco",
+        "contact": {
+            "web": "https://github.com/uampio/UAMP-KiCad-Libraries"
+        }
+    },
+    "license": "Apache-2.0",
+    "resources": {
+        "homepage": "https://github.com/uampio/UAMP-KiCad-Libraries"
+    },
+    "versions": [
+        {
+            "version": "1.0.0",
+            "status": "stable",
+            "kicad_version": "9.0.1",
+            "download_sha256": "21173f17a759d982ed95ca7a637105f555dd27c4988cda41b7403394a9828a34",
+            "download_size": 9743780,
+            "download_url": "https://github.com/uampio/UAMP-KiCad-Libraries/releases/download/1.0.0/uamp-kicad-addon.zip",
+            "install_size": 58522033
+        }
+    ]
+}
