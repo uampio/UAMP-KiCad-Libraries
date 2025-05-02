@@ -289,7 +289,7 @@
   (pad 198 smd rect (at 4.099999 31.05) (size 2 0.35) (layers F.Cu F.Paste))
   (pad 199 smd rect (at -4.1 31.35) (size 2 0.35) (layers F.Cu F.Paste))
   (pad 200 smd rect (at 4.099999 31.65) (size 2 0.35) (layers F.Cu F.Paste))
-  (model ${UAMP_LIBRARIES}/Footprints/3D-Models/Raspberry_Pi_Foundation.3dshapes/Conn_1473149-4_Raspberry_Pi_Industrial_CM3+.stp
+  (model "${KICAD9_3RD_PARTY}/3dmodels/com_github_uamp_kicad-libraries/Raspberry_Pi_Foundation.3dshapes/Conn_1473149-4_Raspberry_Pi_Industrial_CM3+.stp"
     (offset (xyz 3.6 0 2.5))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 -90))

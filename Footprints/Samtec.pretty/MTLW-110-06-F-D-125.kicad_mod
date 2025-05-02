@@ -29,7 +29,7 @@
   (pad 18 thru_hole circle (at 8.89 -1.27) (size 1.52 1.52) (drill 1.02) (layers *.Cu *.Mask))
   (pad 19 thru_hole circle (at 11.43 1.27) (size 1.52 1.52) (drill 1.02) (layers *.Cu *.Mask))
   (pad 20 thru_hole circle (at 11.43 -1.27) (size 1.52 1.52) (drill 1.02) (layers *.Cu *.Mask))
-  (model ${UAMP_LIBRARIES}/Footprints/3D-Models/Samtec.3dshapes/MTLW-110-06-F-D-125.stp
+  (model "${KICAD9_3RD_PARTY}/3dmodels/com_github_uamp_kicad-libraries/Samtec.3dshapes/MTLW-110-06-F-D-125.stp"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

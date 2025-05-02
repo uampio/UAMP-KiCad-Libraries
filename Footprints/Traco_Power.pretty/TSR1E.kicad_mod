@@ -12,7 +12,7 @@
   (pad 3 thru_hole circle (at -2.54 0) (size 2.1 2.1) (drill 1) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 0 0) (size 2.1 2.1) (drill 1) (layers *.Cu *.Mask))
   (pad 1 thru_hole circle (at 2.54 0) (size 2.1 2.1) (drill 1) (layers *.Cu *.Mask))
-  (model ${UAMP_LIBRARIES}/Footprints/3D-Models/Traco_Power.3dshapes/tsr1e.stp
+  (model "${KICAD9_3RD_PARTY}/3dmodels/com_github_uamp_kicad-libraries/Traco_Power.3dshapes/tsr1e.stp"
     (offset (xyz 0 -1.7 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

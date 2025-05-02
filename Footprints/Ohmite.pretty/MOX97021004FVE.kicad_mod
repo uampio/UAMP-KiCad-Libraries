@@ -12,7 +12,7 @@
   (fp_line (start -77.8 -4.1) (end 0 -4.1) (layer F.SilkS) (width 0.12))
   (pad 1 thru_hole circle (at -84.15 0) (size 2.4 2.4) (drill 1.2) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 84.15 0) (size 2.4 2.4) (drill 1.2) (layers *.Cu *.Mask))
-  (model ${UAMP_LIBRARIES}/Footprints/3D-Models/Ohmite.3dshapes/MOX97021004FVE.stp
+  (model "${KICAD9_3RD_PARTY}/3dmodels/com_github_uamp_kicad-libraries/Ohmite.3dshapes/MOX97021004FVE.stp"
     (offset (xyz 0 0 4.2))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

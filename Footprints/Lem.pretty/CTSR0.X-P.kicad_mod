@@ -15,7 +15,7 @@
   (pad 4 thru_hole oval (at 16.49 9.15) (size 1.524 2.032) (drill 1.2) (layers *.Cu *.Mask))
   (pad 5 thru_hole oval (at 16.9 0) (size 2.8 3.4) (drill 2) (layers *.Cu *.Mask))
   (pad 6 thru_hole oval (at -16.9 0) (size 2.8 3.4) (drill 2) (layers *.Cu *.Mask))
-  (model ${UAMP_LIBRARIES}/Footprints/3D-Models/Lem.3dshapes/CTSR_0.3_P.stp
+  (model "${KICAD9_3RD_PARTY}/3dmodels/com_github_uamp_kicad-libraries/Lem.3dshapes/CTSR_0.3_P.stp"
     (offset (xyz 25.3 22.3 65.2))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 -90 180))

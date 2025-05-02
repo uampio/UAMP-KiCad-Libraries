@@ -16,7 +16,7 @@
   (pad 3 thru_hole circle (at 0 0) (size 2.8 2.8) (drill 1.4) (layers *.Cu *.Mask))
   (pad 4 thru_hole circle (at 5.08 0) (size 2.8 2.8) (drill 1.4) (layers *.Cu *.Mask))
   (pad 5 thru_hole circle (at 10.16 0) (size 2.8 2.8) (drill 1.4) (layers *.Cu *.Mask))
-  (model ${UAMP_LIBRARIES}/Footprints/3D-Models/Phoenix_Contact.3dshapes/5446325_00_BCH-508H-3-GN.stp
+  (model "${KICAD9_3RD_PARTY}/3dmodels/com_github_uamp_kicad-libraries/Phoenix_Contact.3dshapes/5446325_00_BCH-508H-3-GN.stp"
     (offset (xyz -7.5 -10 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
