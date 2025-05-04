@@ -27,7 +27,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "450404015514:450404015514"
+		(property "Footprint" "Wurth_Elektronik:450404015514"
 			(at 0 0 0)
 			(effects
 				(font
