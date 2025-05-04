@@ -27,7 +27,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Sensirion:SON100P200X200X80-5N"
+		(property "Footprint" "PCM_Sensirion:SON100P200X200X80-5N"
 			(at 3.81 -17.78 0)
 			(effects
 				(font

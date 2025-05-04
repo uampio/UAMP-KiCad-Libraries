@@ -25,7 +25,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Lem:CTSR0.X-P"
+		(property "Footprint" "PCM_Lem:CTSR0.X-P"
 			(at 0 -1.27 0)
 			(effects
 				(font

@@ -25,7 +25,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Arduino:Arduino_Portenta_H7"
+		(property "Footprint" "PCM_Arduino:Arduino_Portenta_H7"
 			(at 0 5.08 0)
 			(effects
 				(font

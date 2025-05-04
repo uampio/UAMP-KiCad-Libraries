@@ -27,7 +27,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "GCT:GCT_USB4105-GF-A"
+		(property "Footprint" "PCM_GCT:GCT_USB4105-GF-A"
 			(at 7.62 -25.4 0)
 			(effects
 				(font
