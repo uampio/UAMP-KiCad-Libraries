@@ -27,7 +27,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "TDK_InvenSense:IC_ICM-42670-P"
+		(property "Footprint" "PCM_TDK_InvenSense:IC_ICM-42670-P"
 			(at 2.54 -25.4 0)
 			(effects
 				(font

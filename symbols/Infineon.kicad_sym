@@ -25,7 +25,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Infineon:Infineon_PG-DSO-8-16"
+		(property "Footprint" "PCM_Infineon:Infineon_PG-DSO-8-16"
 			(at 0 2.54 0)
 			(effects
 				(font

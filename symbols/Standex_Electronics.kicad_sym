@@ -25,7 +25,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Standex_Electronics:HM24-1A83-08"
+		(property "Footprint" "PCM_Standex_Electronics:HM24-1A83-08"
 			(at 0 0 0)
 			(effects
 				(font
