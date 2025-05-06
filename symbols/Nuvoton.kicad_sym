@@ -37,7 +37,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.nuvoton.com/export/resource-files/NAU7802%20Data%20Sheet%20V1.7.pdfhttps://www.nuvoton.com/export/resource-files/NAU7802%20Data%20Sheet%20V1.7.pdf"
+		(property "Datasheet" "https://www.nuvoton.com/export/resource-files/NAU7802%20Data%20Sheet%20V1.7.pdf"
 			(at 0 0 0)
 			(effects
 				(font
