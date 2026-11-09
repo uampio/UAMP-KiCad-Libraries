@@ -14,7 +14,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "MAX17262"
 			(at 0 0 0)
 			(effects
 				(font
@@ -619,7 +619,7 @@
 				)
 			)
 		)
-		(property "Supplier name" "190-5670"
+		(property "Supplier name" "RS"
 			(at 0 0 0)
 			(effects
 				(font
@@ -627,7 +627,7 @@
 				)
 			)
 		)
-		(property "Supplier part number (SPN)" "RS"
+		(property "Supplier part number (SPN)" "190-5670"
 			(at 0 0 0)
 			(effects
 				(font
