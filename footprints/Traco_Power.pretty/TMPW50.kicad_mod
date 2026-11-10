@@ -1,21 +1,136 @@
-(module TMPW50 (layer F.Cu) (tedit 607452B7)
-  (fp_text reference REF** (at 0 2.1) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value TMPW50 (at 0 -2.4) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_line (start -37.1 -23.5) (end 37.1 -23.5) (layer F.SilkS) (width 0.12))
-  (fp_line (start -37.1 23.5) (end -37.1 -23.5) (layer F.SilkS) (width 0.12))
-  (fp_line (start 37.1 23.5) (end -37.1 23.5) (layer F.SilkS) (width 0.12))
-  (fp_line (start 37.1 -23.5) (end 37.1 23.5) (layer F.SilkS) (width 0.12))
-  (pad 4 thru_hole circle (at -31 0.7) (size 2.5 2.5) (drill 1.2) (layers *.Cu *.Mask))
-  (pad 3 thru_hole circle (at -31 12.2) (size 2.5 2.5) (drill 1.2) (layers *.Cu *.Mask))
-  (pad 2 thru_hole circle (at 31 -19.3) (size 2.5 2.5) (drill 1.2) (layers *.Cu *.Mask))
-  (pad 1 thru_hole circle (at 31 0.7) (size 2.5 2.5) (drill 1.2) (layers *.Cu *.Mask))
-  (model "${KICAD9_3RD_PARTY}/3dmodels/com_github_uamp_kicad-libraries/Traco_Power.3dshapes/tmpw50.stp"
-    (offset (xyz -32.5 1 7.3))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 180))
-  )
+(footprint "TMPW50"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 2.1 0)
+		(layer "F.SilkS")
+		(uuid "2df2a41c-221d-4978-a634-41e9b4abc835")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TMPW50"
+		(at 0 -2.4 0)
+		(layer "F.Fab")
+		(uuid "747dfede-9a5a-4b2d-9308-89dab809c220")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e9430030-4536-471e-a848-4efb382c57fc")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "19462511-1293-4071-b7ba-37b8df7ca4ac")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -37.1 -23.5)
+		(end 37.1 -23.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "46ebfbeb-0005-4151-9e55-ab0465eb86de")
+	)
+	(fp_line
+		(start -37.1 23.5)
+		(end -37.1 -23.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ea910f97-5138-4e53-ad6b-0c10993c8627")
+	)
+	(fp_line
+		(start 37.1 -23.5)
+		(end 37.1 23.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c59c070a-7a64-40e9-94b5-660b6c396097")
+	)
+	(fp_line
+		(start 37.1 23.5)
+		(end -37.1 23.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "43cb4afe-8225-4329-86ff-ee574c49df0e")
+	)
+	(pad "1" thru_hole circle
+		(at 31 0.7)
+		(size 2.5 2.5)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2e696ac9-0a02-4160-9ec0-e75c31c998bc")
+	)
+	(pad "2" thru_hole circle
+		(at 31 -19.3)
+		(size 2.5 2.5)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9d08d751-ef80-4b19-b9bb-2ad1378c90b7")
+	)
+	(pad "3" thru_hole circle
+		(at -31 12.2)
+		(size 2.5 2.5)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "592aa604-2d45-4bfd-987d-6fc34e782629")
+	)
+	(pad "4" thru_hole circle
+		(at -31 0.7)
+		(size 2.5 2.5)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6911ebdc-d706-4328-bfaa-9d5f59f4bc2c")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_uamp_kicad-libraries/Traco_Power.3dshapes/tmpw50.stp"
+		(offset
+			(xyz -32.5 1 7.3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 180)
+		)
+	)
 )

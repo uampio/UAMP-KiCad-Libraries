@@ -1,7 +1,7 @@
 (footprint "IC_ICM-42670-P"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0.675 -2.635 0)
@@ -50,6 +50,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_poly
 		(pts
 			(xy -1.45 -0.925) (xy -0.875 -0.925) (xy -0.875 -0.575) (xy -1.45 -0.575)
@@ -509,7 +510,7 @@
 		(uuid "bb3bcd93-ce27-4a0a-b05f-24db4c47986a")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3RD_PARTY}/3dmodels/com_github_uamp_kicad-libraries/TDK_InvenSense.3dshapes/ICM-42670-P.step"
+	(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_uamp_kicad-libraries/TDK_InvenSense.3dshapes/ICM-42670-P.step"
 		(offset
 			(xyz 0 0 0)
 		)

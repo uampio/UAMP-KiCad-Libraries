@@ -1,13 +1,17 @@
 (kicad_symbol_lib
-	(version 20241209)
+	(version 20251024)
 	(generator "kicad_symbol_editor")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(symbol "VNH3SP30-E"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
 			(at -7.62 13.97 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16,6 +20,8 @@
 		)
 		(property "Value" "VNH3SP30-E"
 			(at 12.7 13.97 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24,33 +30,41 @@
 		)
 		(property "Footprint" "Package_SO:ST_MultiPowerSO-30"
 			(at 22.86 -13.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/vnh3sp30-e.pdf"
 			(at -11.43 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Full Bridge Motor Driver, 41V, 30A, -40 to 150C, MultiPowerSO-30"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "ST Microelectronics"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59,6 +73,8 @@
 		)
 		(property "Manufacturer part number (MPN)" "VNH3SP30-E"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -67,6 +83,8 @@
 		)
 		(property "Supplier name" "Digi-Key"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -75,6 +93,8 @@
 		)
 		(property "Supplier part number (SPN)" "VNH3SP30-E-ND"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -83,20 +103,24 @@
 		)
 		(property "ki_keywords" "full-bridge h-bridge"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_fp_filters" "ST*MultiPowerSO*"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "VNH3SP30-E_0_1"
@@ -113,89 +137,17 @@
 			)
 		)
 		(symbol "VNH3SP30-E_1_1"
-			(pin input line
-				(at -12.7 10.16 0)
+			(pin output line
+				(at -5.08 -15.24 90)
 				(length 2.54)
-				(name "INA"
+				(name "OUTA"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -12.7 7.62 0)
-				(length 2.54)
-				(name "INB"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -12.7 5.08 0)
-				(length 2.54)
-				(name "PWM"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin open_collector line
-				(at -12.7 0 0)
-				(length 2.54)
-				(name "EN/DIAGA"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin open_collector line
-				(at -12.7 -2.54 0)
-				(length 2.54)
-				(name "EN/DIAGB"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -204,7 +156,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -10.16 2.54 0)
+				(at 10.16 -7.62 180)
 				(length 2.54)
 				(hide yes)
 				(name "NC"
@@ -214,7 +166,25 @@
 						)
 					)
 				)
-				(number "12"
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 5.08 15.24 270)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -241,6 +211,42 @@
 					)
 				)
 			)
+			(pin input line
+				(at -12.7 10.16 0)
+				(length 2.54)
+				(name "INA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin open_collector line
+				(at -12.7 0 0)
+				(length 2.54)
+				(name "EN/DIAGA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin no_connect line
 				(at -10.16 -7.62 0)
 				(length 2.54)
@@ -253,6 +259,24 @@
 					)
 				)
 				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 5.08 0)
+				(length 2.54)
+				(name "PWM"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -279,17 +303,17 @@
 					)
 				)
 			)
-			(pin output line
-				(at -5.08 -15.24 90)
+			(pin open_collector line
+				(at -12.7 -2.54 0)
 				(length 2.54)
-				(name "OUTA"
+				(name "EN/DIAGB"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "1"
+				(number "10"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -297,17 +321,17 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 0 -15.24 90)
+			(pin input line
+				(at -12.7 7.62 0)
 				(length 2.54)
-				(name "GNDA"
+				(name "INB"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "26"
+				(number "11"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -315,37 +339,18 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 0 -15.24 90)
+			(pin no_connect line
+				(at -10.16 2.54 0)
 				(length 2.54)
 				(hide yes)
-				(name "GNDA"
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "27"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -15.24 90)
-				(length 2.54)
-				(hide yes)
-				(name "GNDA"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "28"
+				(number "12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -372,18 +377,18 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 5.08 15.24 270)
+			(pin no_connect line
+				(at 10.16 -10.16 180)
 				(length 2.54)
 				(hide yes)
-				(name "VCC"
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "23"
+				(number "14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -391,17 +396,17 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 5.08 15.24 270)
+			(pin output line
+				(at 8.89 -15.24 90)
 				(length 2.54)
-				(name "VCC"
+				(name "OUTB"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "3"
+				(number "15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -410,17 +415,36 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 15.24 270)
+				(at 12.7 -2.54 180)
 				(length 2.54)
 				(hide yes)
-				(name "VCC"
+				(name "OUTB"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "31"
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 10.16 -5.08 180)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -484,9 +508,10 @@
 					)
 				)
 			)
-			(pin output line
-				(at 8.89 -15.24 90)
+			(pin passive line
+				(at 12.7 -2.54 180)
 				(length 2.54)
+				(hide yes)
 				(name "OUTB"
 					(effects
 						(font
@@ -494,45 +519,7 @@
 						)
 					)
 				)
-				(number "15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 10.16 7.62 180)
-				(length 2.54)
-				(hide yes)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "29"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 10.16 5.08 180)
-				(length 2.54)
-				(hide yes)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "24"
+				(number "21"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -559,18 +546,18 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at 10.16 -5.08 180)
+			(pin passive line
+				(at 5.08 15.24 270)
 				(length 2.54)
 				(hide yes)
-				(name "NC"
+				(name "VCC"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "17"
+				(number "23"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -579,7 +566,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 10.16 -7.62 180)
+				(at 10.16 5.08 180)
 				(length 2.54)
 				(hide yes)
 				(name "NC"
@@ -589,26 +576,7 @@
 						)
 					)
 				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 10.16 -10.16 180)
-				(length 2.54)
-				(hide yes)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "14"
+				(number "24"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -628,6 +596,81 @@
 					)
 				)
 				(number "25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -15.24 90)
+				(length 2.54)
+				(name "GNDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -15.24 90)
+				(length 2.54)
+				(hide yes)
+				(name "GNDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -15.24 90)
+				(length 2.54)
+				(hide yes)
+				(name "GNDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 10.16 7.62 180)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "29"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -655,54 +698,17 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 2.54 180)
-				(length 2.54)
-				(name "OUTA"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "33"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 12.7 -2.54 180)
+				(at 5.08 15.24 270)
 				(length 2.54)
 				(hide yes)
-				(name "OUTB"
+				(name "VCC"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "16"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 12.7 -2.54 180)
-				(length 2.54)
-				(hide yes)
-				(name "OUTB"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "21"
+				(number "31"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -721,6 +727,24 @@
 					)
 				)
 				(number "32"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12.7 2.54 180)
+				(length 2.54)
+				(name "OUTA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "33"
 					(effects
 						(font
 							(size 1.27 1.27)

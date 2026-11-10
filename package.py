@@ -15,7 +15,7 @@ directories_to_zip = [
 ]
 
 
-KICAD_VERSION = "9.0.1"
+KICAD_VERSION = "10.0"
 ZIP_FILE_NAME = "uamp-kicad-addon.zip"
 DOWNLOAD_URL = "https://github.com/uampio/UAMP-KiCad-Libraries/releases/download/{VERSION}/{ZIP_FILE_NAME}"
 

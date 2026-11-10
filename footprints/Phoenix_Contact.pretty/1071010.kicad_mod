@@ -1,27 +1,160 @@
-(module 1071010 (layer F.Cu) (tedit 60914DED)
-  (fp_text reference REF** (at 0 7) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value 1071010 (at -0.25 -4.5) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_line (start -4.25 5.5) (end 4.25 5.5) (layer F.SilkS) (width 0.12))
-  (fp_line (start -4.25 -5.5) (end 4.25 -5.5) (layer F.SilkS) (width 0.12))
-  (fp_line (start 4.25 -5.5) (end 4.25 5.5) (layer F.SilkS) (width 0.12))
-  (fp_line (start -4.25 -5.5) (end -4.25 5.5) (layer F.SilkS) (width 0.12))
-  (fp_text user 1 (at -1.75 -6.75 180 unlocked) (layer F.SilkS)
-    (effects (font (size 0.8 0.8) (thickness 0.15)))
-  )
-  (fp_text user 2 (at 1.75 -6.75 180 unlocked) (layer F.SilkS)
-    (effects (font (size 0.8 0.8) (thickness 0.15)))
-  )
-  (pad 1 thru_hole circle (at -1.75 -2.5) (size 1.9 1.9) (drill 1.1) (layers *.Cu *.Mask))
-  (pad 2 thru_hole circle (at 1.75 -2.5) (size 1.9 1.9) (drill 1.1) (layers *.Cu *.Mask))
-  (pad 1 thru_hole circle (at -1.75 2.5) (size 1.9 1.9) (drill 1.1) (layers *.Cu *.Mask))
-  (pad 2 thru_hole circle (at 1.75 2.5) (size 1.9 1.9) (drill 1.1) (layers *.Cu *.Mask))
-  (model "${KICAD9_3RD_PARTY}/3dmodels/com_github_uamp_kicad-libraries/Phoenix_Contact.3dshapes/1071010_00_SPTAF-1-2-3-5-IL-EX.stp"
-    (offset (xyz -4.25 -5.5 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "1071010"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 7 0)
+		(layer "F.SilkS")
+		(uuid "a3c69f03-da6f-49c4-86ca-5ce4653e2c48")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "1071010"
+		(at -0.25 -4.5 0)
+		(layer "F.Fab")
+		(uuid "1d45164b-fa97-4eec-aef9-3480546b344a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dcdd2fd2-5cf4-4072-baef-665d88402998")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a905c8a3-96e1-494a-9670-b60b63731ffa")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -4.25 -5.5)
+		(end -4.25 5.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "51523f22-995e-443c-98b6-3455eb3b1282")
+	)
+	(fp_line
+		(start -4.25 -5.5)
+		(end 4.25 -5.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a0f417e2-9808-4902-b95c-907bdab82f53")
+	)
+	(fp_line
+		(start -4.25 5.5)
+		(end 4.25 5.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "51dca416-433b-4429-8eae-438151ad66da")
+	)
+	(fp_line
+		(start 4.25 -5.5)
+		(end 4.25 5.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5a21a8ba-286b-4360-9bc6-cae6ac7c9195")
+	)
+	(fp_text user "1"
+		(at -1.75 -6.75 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4c8a9bb6-7ec9-45f4-9453-8732662f250d")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "2"
+		(at 1.75 -6.75 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ee57162a-44fe-4b25-a563-cbfd05889adf")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -1.75 -2.5)
+		(size 1.9 1.9)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "af8cf251-05a2-45e2-9559-62f37e101bc2")
+	)
+	(pad "1" thru_hole circle
+		(at -1.75 2.5)
+		(size 1.9 1.9)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5b68611a-ba6a-451b-ab04-33056ae03a9f")
+	)
+	(pad "2" thru_hole circle
+		(at 1.75 -2.5)
+		(size 1.9 1.9)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ca60e548-77a1-4ab4-b0b5-789b06e1d66b")
+	)
+	(pad "2" thru_hole circle
+		(at 1.75 2.5)
+		(size 1.9 1.9)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ef4760d2-fb6e-4332-b8ce-ed7f58daa7e8")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_uamp_kicad-libraries/Phoenix_Contact.3dshapes/1071010_00_SPTAF-1-2-3-5-IL-EX.stp"
+		(offset
+			(xyz -4.25 -5.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

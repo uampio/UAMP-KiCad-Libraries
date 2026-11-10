@@ -1,21 +1,136 @@
-(module 5227677-1 (layer F.Cu) (tedit 609A330D)
-  (fp_text reference REF** (at 0 2) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value 5227677-1 (at 0 -2.25) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_line (start 7.25 -3.5) (end 7.25 12.5) (layer F.SilkS) (width 0.12))
-  (fp_line (start -7.25 -3.5) (end 7.25 -3.5) (layer F.SilkS) (width 0.12))
-  (fp_line (start -7.25 12.5) (end -7.25 -3.5) (layer F.SilkS) (width 0.12))
-  (fp_line (start 7.25 12.5) (end -7.25 12.5) (layer F.SilkS) (width 0.12))
-  (pad 1 thru_hole circle (at 0 0) (size 1.524 1.524) (drill 0.89) (layers *.Cu *.Mask))
-  (pad 2 thru_hole circle (at 2.54 0) (size 1.524 1.524) (drill 0.89) (layers *.Cu *.Mask))
-  (pad "" thru_hole circle (at 5.08 5.08) (size 3 3) (drill 2.01) (layers *.Cu *.Mask))
-  (pad "" thru_hole circle (at -5.08 5.08) (size 3 3) (drill 2.01) (layers *.Cu *.Mask))
-  (model "${KICAD9_3RD_PARTY}/3dmodels/com_github_uamp_kicad-libraries/TE.3dshapes/c-5227677-01-a-3d.stp"
-    (offset (xyz 0 -33.65 8.300000000000001))
-    (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 0))
-  )
+(footprint "5227677-1"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 2 0)
+		(layer "F.SilkS")
+		(uuid "324767fa-384d-4470-9117-69bd5b4206b8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "5227677-1"
+		(at 0 -2.25 0)
+		(layer "F.Fab")
+		(uuid "7f04526c-4156-45fb-936d-7f2780a5be07")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "88afc0a7-0c40-4d3f-851a-eb9a93d066fe")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "11000fa1-f6fe-4bf6-a314-3b34dc5ab266")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -7.25 -3.5)
+		(end 7.25 -3.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5421d78c-12dd-4d9e-b495-90fa174154a1")
+	)
+	(fp_line
+		(start -7.25 12.5)
+		(end -7.25 -3.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a4f66ac3-40ae-49d2-b929-6906813f77dc")
+	)
+	(fp_line
+		(start 7.25 -3.5)
+		(end 7.25 12.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "936df7a7-cc45-482c-9e0d-68b3dbf7c1a4")
+	)
+	(fp_line
+		(start 7.25 12.5)
+		(end -7.25 12.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9317cae4-4a1a-4975-9a2f-19c2505b1b50")
+	)
+	(pad "" thru_hole circle
+		(at -5.08 5.08)
+		(size 3 3)
+		(drill 2.01)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ab9520f6-262b-49fb-8691-a9337fc35a5c")
+	)
+	(pad "" thru_hole circle
+		(at 5.08 5.08)
+		(size 3 3)
+		(drill 2.01)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "088fa72c-a973-4b1f-9b0d-38301589ef4a")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.524 1.524)
+		(drill 0.89)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e6a9f353-9ee3-4496-b80d-e1d2cea5cf82")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1.524 1.524)
+		(drill 0.89)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d5cfa71c-adb0-4cca-956f-8f7335863ff6")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_uamp_kicad-libraries/TE.3dshapes/c-5227677-01-a-3d.stp"
+		(offset
+			(xyz 0 -33.65 8.3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )

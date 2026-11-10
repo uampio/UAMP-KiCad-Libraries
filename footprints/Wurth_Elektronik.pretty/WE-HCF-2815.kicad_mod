@@ -1,24 +1,162 @@
-(module WE-HCF-2815 (layer F.Cu) (tedit 5D88EA93)
-  (fp_text reference REF** (at -0.02 1.87) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value WE-HCF-2815 (at 0 -0.5) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_line (start 14.5 9.7) (end -14.5 9.7) (layer F.SilkS) (width 0.12))
-  (fp_line (start -14.5 -9.7) (end -14.5 9.7) (layer F.SilkS) (width 0.12))
-  (fp_line (start 14.5 -9.7) (end 14.5 9.7) (layer F.SilkS) (width 0.12))
-  (fp_line (start -4 -9.7) (end -4 -4.2) (layer F.SilkS) (width 0.12))
-  (fp_line (start 4 -9.7) (end 4 -4.2) (layer F.SilkS) (width 0.12))
-  (fp_line (start 4 -4.2) (end -4 -4.2) (layer F.SilkS) (width 0.12))
-  (fp_line (start -14.5 -9.7) (end -4 -9.7) (layer F.SilkS) (width 0.12))
-  (fp_line (start 4 -9.7) (end 14.5 -9.7) (layer F.SilkS) (width 0.12))
-  (pad 1 smd rect (at -5.075 14.355) (size 5.33 5.59) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 5.075 14.355) (size 5.33 5.59) (layers F.Cu F.Paste F.Mask))
-  (pad 3 smd rect (at 0 -7.72) (size 6.35 5.28) (layers F.Cu F.Paste F.Mask))
-  (model "${KICAD9_3RD_PARTY}/3dmodels/com_github_uamp_kicad-libraries/Wurth_Elektronik.3dshapes/WE-HCF-2815.stp"
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "WE-HCF-2815"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.02 1.87 0)
+		(layer "F.SilkS")
+		(uuid "7d182eb0-4a8b-4e09-af2f-094dd4130eba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "WE-HCF-2815"
+		(at 0 -0.5 0)
+		(layer "F.Fab")
+		(uuid "b9809546-1942-41f9-a625-998a4362cddf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3a3b6171-a55b-4073-a67e-80cfa415b863")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "866425a3-1cda-4b06-a4e7-7e6b5228a7e0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -14.5 -9.7)
+		(end -14.5 9.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e0368e06-dbd4-4741-88a4-e8f4fea15b2b")
+	)
+	(fp_line
+		(start -14.5 -9.7)
+		(end -4 -9.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c511653f-dcd6-4a74-a932-0354e0d6c947")
+	)
+	(fp_line
+		(start -4 -9.7)
+		(end -4 -4.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "861a58d3-1cae-4a0c-b0e8-fb480e3b7614")
+	)
+	(fp_line
+		(start 4 -9.7)
+		(end 4 -4.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "204f74f1-5890-4f2c-b56c-dd89172d079a")
+	)
+	(fp_line
+		(start 4 -9.7)
+		(end 14.5 -9.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3c6e7a03-78ab-47db-9402-29994707fa34")
+	)
+	(fp_line
+		(start 4 -4.2)
+		(end -4 -4.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2d131cf8-6294-4485-b9de-93f0f2faeb75")
+	)
+	(fp_line
+		(start 14.5 -9.7)
+		(end 14.5 9.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "39a7eace-5d0a-4777-95e9-a8d9c30b3a27")
+	)
+	(fp_line
+		(start 14.5 9.7)
+		(end -14.5 9.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d5a7c8b1-e43d-480d-a44c-6d200bdb887c")
+	)
+	(pad "1" smd rect
+		(at -5.075 14.355)
+		(size 5.33 5.59)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c0d072cb-4a0f-4391-aa53-9e394ff5cb23")
+	)
+	(pad "2" smd rect
+		(at 5.075 14.355)
+		(size 5.33 5.59)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "07713e16-f183-42b0-bfc0-ec942800d0e0")
+	)
+	(pad "3" smd rect
+		(at 0 -7.72)
+		(size 6.35 5.28)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "507eb872-eb21-44f6-bc89-0eaced05c6a1")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_uamp_kicad-libraries/Wurth_Elektronik.3dshapes/WE-HCF-2815.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
