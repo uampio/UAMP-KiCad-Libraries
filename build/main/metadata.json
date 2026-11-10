@@ -23,6 +23,15 @@
     },
     "versions": [
         {
+            "version": "1.0.5",
+            "status": "stable",
+            "kicad_version": "10.0",
+            "download_sha256": "3c150ad5fe6587abb2c9a647a483d0b0ef5422b0206ddf63e7cbbf47266a78da",
+            "download_size": 13200153,
+            "download_url": "https://github.com/uampio/UAMP-KiCad-Libraries/releases/download/1.0.5/uamp-kicad-addon.zip",
+            "install_size": 80912103
+        },
+        {
             "version": "1.0.4",
             "status": "stable",
             "kicad_version": "10.0",
