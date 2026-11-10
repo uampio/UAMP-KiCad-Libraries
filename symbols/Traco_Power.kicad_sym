@@ -294,7 +294,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 13.97 -1.27 180)
 				(length 2.54)
 				(name "-Vout"
@@ -330,7 +330,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at -13.97 -1.27 0)
 				(length 2.54)
 				(name "AC_IN_(N)"
@@ -464,7 +464,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at -13.97 -1.27 0)
 				(length 2.54)
 				(name "AC_IN_(N)"
@@ -500,7 +500,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 13.97 -1.27 180)
 				(length 2.54)
 				(name "-Vout"
@@ -615,7 +615,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at -13.97 -1.27 0)
 				(length 2.54)
 				(name "AC_IN_(N)"
@@ -633,7 +633,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 13.97 -1.27 180)
 				(length 2.54)
 				(name "-Vout"
