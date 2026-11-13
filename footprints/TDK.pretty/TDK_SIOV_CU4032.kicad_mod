@@ -1,0 +1,121 @@
+(footprint "TDK_SIOV_CU4032"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "TDK (EPCOS) SIOV CU4032 SMD varistor, 10.2x8.0 mm, recommended land pattern (pads 3.5x2.8 mm, gap 6.5 mm), https://www.tdk-electronics.tdk.com/inf/70/db/var/SIOV_CU_Standard.pdf")
+	(tags "varistor MOV SIOV CU4032 SMD")
+	(property "Reference" "REF**"
+		(at 0 -5.3 0)
+		(layer "F.SilkS")
+		(uuid "6ddedb77-2e96-48c4-a865-55ca8675df73")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Value" "TDK_SIOV_CU4032"
+		(at 0 5.3 0)
+		(layer "F.Fab")
+		(uuid "6390c807-f6fc-48dd-9c3b-016e31119c1a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9acb2b6b-ce6b-4898-bd05-79f3fc2a3d23")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1e6ac673-7bb0-42ab-b861-ca5faf8d10a0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -5.21 -4.11)
+		(end 5.21 -4.11)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "44cb67ab-aabb-4594-9f61-21cd4a4fc992")
+	)
+	(fp_line
+		(start -5.21 4.11)
+		(end 5.21 4.11)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2e7e265b-fb79-4db4-8a4b-f4a05c458968")
+	)
+	(fp_rect
+		(start -6.3 -4.25)
+		(end 6.3 4.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "8be425b5-4362-4373-a407-77cc4f6f8ca1")
+	)
+	(fp_rect
+		(start -5.1 -4)
+		(end 5.1 4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "652d5994-fef8-477c-a7e9-85cee2c18736")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "4b95eb09-78fd-4547-a97d-0a3f83354658")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -4.65 0)
+		(size 2.8 3.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(thermal_bridge_angle 45)
+		(uuid "469c8864-e3b3-4150-bc0d-5aedb91e44a2")
+	)
+	(pad "2" smd roundrect
+		(at 4.65 0)
+		(size 2.8 3.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(thermal_bridge_angle 45)
+		(uuid "2ae595ac-01a5-46a9-ab27-2c25c42ca642")
+	)
+	(embedded_fonts no)
+)
